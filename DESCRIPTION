@@ -1,0 +1,17 @@
+Package: SeqPipelineTools
+Version: 0.99.3
+Date: 3-18-2017
+Title: Pipeline tools for RNA-seq or ChIP-seq data
+Description: This package provides tools supporting RNA-seq, ChIP-seq data and variant
+  analysis as well as variant. Tools includes wrappers for trimming low quality tails,
+  identifying mismatch types, making summarizedExpriment objects with gene counts, DESeq2
+  analysis and reports with annotation.
+Author: Chao-Jen Wong
+Maintainer: Chao-Jen Wong <cwon2@fredhutch.org>
+Depends: R (>= 3.4.0), DESeq2, Biostrings
+Imports: BiocParallel, Rsamtools, GenomicAlignments, parallel, DESeq2, SGSeq, GenomicFeatures, TxDb.Hsapiens.UCSC.hg38.knownGene, rtracklayer, ShortRead, ChIPseeker
+Suggests: BiocStyle, knitr
+biocViews: RNASeq, software
+License: Artistics-2.0
+VignetteBuilder: knitr
+LazyData: yes

@@ -1,0 +1,14 @@
+importFrom(ShortRead, "readFastq",
+       "nFilter", "trimTailw", "writeFastq")
+
+importFrom(SGSeq, "getBamInfo")
+importFrom(ChIPseeker, "annotatePeak")
+
+import("GenomicFeatures", "rtracklayer", "Rsamtools", "parallel",
+       "xlsx")
+
+export("trimLowQualBase",
+       "simpleDESeqReport",
+       "catchMismatch", "tallyWrapper",
+       "getScaledCountsPerTx", "makeSEwrapper",
+       "getMACSPeaksAnno")
